@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  color: #333;
+  
+}
+
+video {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+}

@@ -25,7 +25,7 @@ const worker = new Worker('emailQueue', async job => {
 
       <img
         src="cid:foto-danca"
-        alt="Bona Sorrindo"
+        alt=""
         style="display:block; max-width:100%; height:auto; margin:20px auto;"
       />
 

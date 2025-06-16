@@ -8,7 +8,7 @@ async function addJobs() {
     'deathstorm751@gmail.com',
     'elessanderribovski722@gmail.com',
     'elessander.ribovski@aluno.unc.br',
-    'elessander.ribovski@estudante.sesisenai.org.br',
+    'ahcibok@gmail.com',
   ];
 
   for (const to of realEmails) {
