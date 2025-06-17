@@ -22,7 +22,9 @@ Um sistema leve para envio de newsletters promocionais, com gerenciamento de fil
 * **Node.js** (v16 ou superior) e **npm**
 * **Redis**
 * Conta **Gmail** com App Password (autenticação de dois fatores)
+* Adicionar um arquivo chamado **imagem.jpg** e **video.mp4** dentro da pasta **static\assets**
 * (Opcional) **ngrok** para expor seu servidor local
+
 
 ## 🚀 Instalação
 

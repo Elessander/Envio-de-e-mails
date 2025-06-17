@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DanceVibes</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+      }
+      .banner {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 8px;
+      }
+      .cta a {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .footer {
+        margin-top: 30px;
+        font-size: 14px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Olá, {{name}}!</h2>
+      <p>
+        Nós acreditamos que cada passo de dança conta uma história.
+        É com muita alegria que compartilhamos esse momento especial com você:
+        um clique vai te levar ao vídeo completo de uma de nossas performances.
+      </p>
+
+      <img
+        src="cid:foto-danca"
+        alt="Ele sorrindo antes de dançar"
+        class="banner"
+      />
+
+      <p>
+        Quando a batida toca, não tem como ficar parado! Prepare-se para se inspirar
+        com cada movimento e, se gostar, compartilhe com quem também ama dançar.
+      </p>
+
+      <p class="cta">
+        <a href="{{link}}">
+          Clique aqui para ver uma coisa surpreendente!
+        </a>
+      </p>
+
+      <p class="footer">Atenciosamente,<br/>Equipe DanceVibes</p>
+    </div>
+  </body>
+</html>
